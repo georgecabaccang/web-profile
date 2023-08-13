@@ -9,16 +9,15 @@ provide("projects", Projects);
 provide("tools", Tools);
 </script>
 
-<!-- bg-[#c5cfdf] -->
 <template>
-    <div class="bg-red-100">
+    <div class="bg-[#c5cfdf] flex flex-col min-h-[100vh] min-w-[100vw]">
         <Navigation />
         <RouterView v-slot="{ Component }">
             <transition name="route" mode="out-in">
                 <component :is="Component" />
             </transition>
         </RouterView>
-        <MyFooter class="mt-auto"/>
+        <MyFooter class="mt-auto" />
     </div>
 </template>
 

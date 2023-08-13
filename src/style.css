@@ -14,9 +14,8 @@
 
 body {
     font-family: averta;
-    background-color: red;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
 }
 
 body::-webkit-scrollbar {

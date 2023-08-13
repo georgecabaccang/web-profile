@@ -28,7 +28,7 @@ const projectDetails = projects[indexOfProject];
                 <img
                     :src="projectDetails.thumbnail"
                     :alt="projectDetails.title"
-                    class="xl:w-[55%] lg:w-[45%] h-[100%] border border-gray-300 rounded"
+                    class="xl:w-[55%] lg:w-[50%] h-[100%] border border-gray-300 rounded"
                 />
             </div>
             <div class="lg-mx-0 flex flex-col xxs:px-5">

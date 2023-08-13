@@ -12,7 +12,7 @@ const projects: IProjects[] = inject("projects")!;
 </script>
 
 <template>
-    <div class="-z-10 mb-7">
+    <div class="mb-7 md:mt-14">
         <ul class="flex flex-wrap gap-5 justify-center md:mx-10">
             <li
                 v-for="project in projects"
