@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: averta;
+    src: url(/src/assets/thumbnails/fonts/AvertaDemo-Regular.otf);
+}
+
+/* html {
+    background-color: #e1edff;
+    position: relative;
+} */
+
+body {
+    font-family: averta;
+    background-color: red;
+    display: flex;
+   flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.route-enter-from,
+.route-leave-to {
+    opacity: 0;
+}
+
+.route-enter-active,
+.route-leave-active {
+    transition: opacity 0.2s ease-out;
+}
